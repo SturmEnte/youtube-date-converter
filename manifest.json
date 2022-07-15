@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+	"name": "Youtube-Date-Converter",
+	"version": "1.0",
+	"description": "Converts youtube dates from mn dd, yy to dd.mm.yy",
+	"content_scripts": [
+		{
+			"matches": ["*://*.youtube.com/watch*"],
+			"js": ["plugin.js"]
+		}
+	],
+	"permissions": ["*://*.youtube.com/watch*"]
+}
