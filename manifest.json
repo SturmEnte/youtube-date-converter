@@ -3,6 +3,9 @@
 	"name": "Youtube-Date-Converter",
 	"version": "1.0",
 	"description": "Converts youtube dates from mn dd, yy to dd.mm.yy",
+    "icons": {
+        "64": "icons/x64.png"
+    },
 	"content_scripts": [
 		{
 			"matches": ["*://*.youtube.com/watch*"],
